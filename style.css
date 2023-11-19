@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Montserrat:wght@200&family=Roboto:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+nav {
+    width: 100%;
+    height: 3rem;
+    background: linear-gradient(to right, #f5d742 10%, #f542bf 90%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+nav .main-icon{
+    margin-left: 10rem;
+    font-size: 1.5rem;
+    display: inline-flex;
+    justify-items: center;
+    align-items: justify;   
+}
+nav .main-icon p i{
+   padding: 0.75rem; 
+   border-left: 2px solid white;
+   cursor: pointer;
+}
+nav .main-icon p:last-child{
+    border-right: 2px solid white;
+}
+
+nav  .account-details{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+nav .account-details p{
+    padding: 5px;
+    cursor: pointer;
+}
+
+nav .account-details p:first-child {
+    border-right: 2px solid white;
+}
+
+nav .request{
+    position: relative;
+    margin-right: 7.5rem;
+    
+}
+nav .request p{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/*----------------------*/
+.other-section{
+    width: auto;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.other-section .logo{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+    color: black;
+}
+.other-section img{
+    margin-left: 10rem;
+    margin-top: 5px;
+}
+.other-section .search-tag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+
+}
+
+.other-section .search-tag a{
+    text-decoration: none;
+    color: black;
+    padding: 1.15rem 0.75rem;
+}
+.other-section .search-tag a:hover{
+    background-color: gold;
+}
+.other-section .search-logo{
+    position: relative;
+    margin-right: 10rem;
+    background-color: black;
+    padding:  1.15rem 0.5rem;
+    color: white;
+}
+.other-section .search-logo:hover{
+    cursor: pointer;
+}
+
+/*-------------------*/
+.two-man {
+    background-size: cover;
+    height: 35rem;
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    animation-name: animate;
+    animation-duration: 18s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+
+    background-image: url(./images/twoman1.jpg); 
+}
+
+@keyframes animate {
+    0%,100% {
+        background-image: url(./images/twoman1.jpg);
+    }
+    50% {
+        background-image: url(./images/twoman2.jpg);
+    }
+  
+}
+
+
+.two-man .text{
+    position: relative;
+    left:2.5rem;
+    top: 2rem;
+    border-left: 5px solid;
+    border-image: linear-gradient(to bottom, #f5d742 10%, #f542bf 90%);
+    border-image-slice: 1;
+    
+    padding-left: 20px;
+    color: white;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+
+}
+
+.two-man .text h2{
+    font-size: 2.5rem;
+    line-height: 4rem;
+    margin-bottom: 25px
+}
+.two-man .text h1{
+    font-size: 3.5rem;
+    margin-bottom: 25px
+}
+.two-man .text p{
+    font-size: 1em;
+}
+.two-man .text .click{
+    padding-top: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    gap:30px;
+}
+.two-man .text .click .read{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    background: linear-gradient(to right, #f5d742 10%, #f542bf 90%);
+}
+
+.two-man .text .click .request{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    background: none;
+}
+
+/*--------------------------*/
+.service{
+    width: 100%;
+    height: 13rem;
+    background: linear-gradient(to right, #f5d742 10%, #f542bf 90%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 20px;
+}
+.service .inside-service{
+
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.service .inside-service:first-child{
+
+    margin-left: 100px;
+}
+.service .inside-service p{
+    margin-top: 20px;
+}
+.service div .icon-heading span{
+    position: relative;
+    margin-left: 60px;
+}
+.service .inside-service i{
+    border: 2px solid white;    
+    border-radius: 50%;
+    padding: 10px;
+  
+}
+
+
+/* ------------------------------------*/
+#about{
+    background-image: url(./images/map.png);
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+   
+}
+#about  .about-text{
+    margin-left:6rem ;
+}
+#about .about-image {
+    margin-right: 12rem;
+
+}
+#about .about-image{
+    height: 70px ;
+    width: 390px;
+    border: 5px solid;
+    border-image: linear-gradient(to bottom, #f5d742 10%, #f542bf 90%);
+    border-image-slice: 1;
+    margin-top: 18rem;
+    margin-left: 2rem;
+}
+
+#about .about-image img{
+    margin-top: -19.2rem;
+    margin-left: -0.8rem;
+}
+#about .about-text h1{
+    position: relative;
+    top:-50px;
+    font-size: 4rem;
+    
+}
+#about .about-text h1 .underline{
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, #f5d742 10%, #f542bf 90%);
+    border-image-slice: 1;
+    padding-bottom: 17px;
+    
+}
+#about .about-text p{
+    line-height: 2rem;
+}
+#about .about-text .read-more p{
+    position: relative;
+    top:15px;
+    display: inline;
+    border: none;
+    border-radius: 20px;
+    padding: 7px;
+    background: linear-gradient(to right, #f5d742 10%, #f542bf 90%);
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 40rem;
+    background: rgb(165, 165, 165);
+    background-image: url(./images/map.png);
+    overflow-x: hidden;
+}
+footer h1{ 
+    position: relative;
+    top: 5rem;
+    left: 6rem;
+    font-size: 4rem;
+}
+
+footer  .underline{
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, #f5d742 10%, #f542bf 90%);
+    border-image-slice: 1;
+    padding-bottom: 17px;
+}
+footer .service-image{
+    position: relative;
+    top: 10rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+footer .service-image  .square{
+    width: 220px;
+    height: 50px;
+    border: 2px solid white;
+    position: relative;
+    left: 80px;
+    top:-30px;
+    background-color: white;
+ 
+    text-align: start;
+
+
+
+}
+footer .service-image  .square i{
+    border: none;
+    padding: 1.2rem;
+    border-radius: 50%;
+    margin-left: -1.5rem;
+    margin-top: -0.2rem;
+    background: linear-gradient(to right, #f5d742 10%, #f542bf 90%);
+    color: white;
+}
+
+footer .create{
+    text-align: center;
+    margin-top: 13rem;
+    background: gray;
+}
+
