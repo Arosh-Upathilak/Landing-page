@@ -39,4 +39,4 @@ This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE
 
 ## Contact
 
-If you have any questions or suggestions, feel free to reach out to [aroshupathilak@gmail.com] 📧.
+If you have any questions or suggestions, feel free to reach out to aroshupathilak@gmail.com 📧.
