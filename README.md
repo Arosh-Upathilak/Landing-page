@@ -1,42 +1,39 @@
-# CODESOFT TASK01 Landing Page 🚀
+# CODESOFT TASK01 portfolio 🌐
 
-Welcome to the Landing Page project! This is a simple and elegant landing page created by [Arosh-Upathilak].
+Welcome to my portfolio! This is a collection of projects and works showcasing my skills and experiences.
 
 ## Overview
 
-Describe your landing page project briefly. What is its purpose? What makes it unique?
+Briefly describe the purpose and uniqueness of your portfolio.
 
-## Preview
+## Projects
 
-Include a screenshot or gif of your landing page to give visitors a quick preview.
+Here are a few featured projects:
 
-## Features
+- **Project 1:** Brief description of Project 1.
+- **Project 2:** Brief description of Project 2.
+- **Project 3:** Brief description of Project 3.
 
-- **Feature 1:** Describe feature 1.
-- **Feature 2:** Describe feature 2.
-- **Feature 3:** Describe feature 3.
+## Skills
 
-## Getting Started
+List some key skills or technologies you specialize in:
 
-To view the landing page, you can visit the [live demo](https://arosh-upathilak.github.io/Landing-page/).
+- Skill 1
+- Skill 2
+- Skill 3
 
-To run the project locally:
+## View My Work
 
-1. Clone the repository: `git clone https://github.com/arosh-upathilak/Landing-page.git`
-2. Open the `index.html` file in your browser.
+Explore my portfolio and check out the details of each project:
 
-## Usage
-
-Explain how users can interact with your landing page or any specific instructions for customization.
-
-## Contributing
-
-If you'd like to contribute to this project, please follow the [contribution guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
+🌐 [PortfolioAAU](https://arosh-upathilak.github.io/portfolioAAU-/)
 
 ## Contact
 
-If you have any questions or suggestions, feel free to reach out to aroshupathilak@gmail.com 📧.
+If you have any questions or would like to connect, feel free to reach out:
+
+📧 aroshupathilak@gmail.com
+
+---
+
+**Connect with me on LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/arosh-upathilak/)
