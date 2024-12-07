@@ -1,20 +1,6 @@
 # CodeSoft-Landing Page 🚀
 
-## Projects
-
-Here are a few featured projects:
-
-- **Project 1:** Brief description of Project 1.
-- **Project 2:** Brief description of Project 2.
-- **Project 3:** Brief description of Project 3.
-
-## Skills
-
-List some key skills or technologies you specialize in:
-
-- Skill 1
-- Skill 2
-- Skill 3
+![Landing Page](https://github.com/Arosh-Upathilak/Landing-page/blob/main/Landing_page.png)
 
 ## View My Work
 
